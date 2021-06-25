@@ -1,0 +1,18 @@
+version: "3.1"
+
+services:
+
+    oh-my-dns:
+        build: .
+        container_name: oh-my-dns
+        restart: always
+        working_dir: /usr/app
+        command: yarn dev
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./:/usr/app
+            - next_volume:/usr/app/.next
+
+volumes: 
+    next_volume:

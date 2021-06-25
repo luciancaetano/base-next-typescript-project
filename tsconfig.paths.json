@@ -1,0 +1,17 @@
+{
+    "compilerOptions" : {
+        "baseUrl": ".",
+        "paths": {
+            "@components/partials": ["components/partials/index"],
+            "@components/elements": ["components/elements/index"],
+            "@components/layout": ["components/layout/index"],
+            "@hooks": ["hooks/index"],
+            "@configs/*": ["configs/*"],
+            "@api.routes": ["config/api.routes"],
+            "@redux/actions/*": ["redux/actions/*"],
+            "@redux/configurestore": ["redux/configurestore.ts"],
+            "@utils/*": ["utils/*"],
+            "@types": ["types/index"]
+        }
+    }
+}
