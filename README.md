@@ -1,6 +1,4 @@
-# React Basic Typescript Redux Starter
-
-[Recommended Libraries](recommended-libraries.md)
+# React Next.js Basic Typescript Redux Starter
 
 # package.json scripts
 - `start: dev` starts the server with a development environment
